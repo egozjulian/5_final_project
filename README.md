@@ -1,2 +1,8 @@
 # 5_final_project
 Image caption generation is a challenging task, the main idea is to automatically generate an image description in a natural language, for this project the language is English. An image caption can be a short description of the objects on the image or a more complex interpretation of the objects and their relationships. For instance, on the following figure we can see an example of image caption![image](https://user-images.githubusercontent.com/42429772/227754571-68ce88d0-b232-40f0-987a-a0e430762459.png)
+
+Image caption generation can be done using traditional machine learning techniques, these techniques are mostly based on feature methods such as Scale-Invariant Feature Transformation, Local Binary Patterns, however, limitations and complexity to use these methods on big datasets, makes those methods not widely used. 
+
+There are different approach using deep learning to tackle this challenging task, in this project we will focus on Encoder-Decoder frameworks, in our first reviewed paper called ‘Image captioning using Neural Network Model”[13] an encoder-decoder methods is used, it uses a convolutional Neural Network to get the image features and then transfers those features to a Recurrent Neural Network more specifically a long short term memory LSTM that is used to stablish the correct sequence of the words and generate a sentence in English. A recurrent neural network is a class of artificial neural networks where connections between nodes can create a cycle.
+![image](https://user-images.githubusercontent.com/42429772/227754691-1c04fe3f-4bbb-4551-9c23-dfbbb831a525.png)
+
